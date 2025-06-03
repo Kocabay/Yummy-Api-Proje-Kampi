@@ -12,7 +12,7 @@ builder.Services.AddDbContext<ApiContext>();
 
 builder.Services.AddScoped<IValidator<Product>, ProductValidator>();
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
-
+ 
 
 
 builder.Services.AddControllers();
